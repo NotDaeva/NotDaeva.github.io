@@ -1,0 +1,35 @@
+body {
+  margin: auto;
+  max-width: 1440px;
+  background-color: var(--color-linen);
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-belgan-aesthetic: "Belgan Aesthetic";
+  --font-antipasto-pro: "Antipasto Pro";
+  --font-yipes: Yipes;
+  --font-louis-george-cafe: "Louis George Cafe";
+  --font-louis-george-cafe-light: "Louis George Cafe Light";
+  --font-louis-george-cafe-bold: "Louis George Cafe Bold";
+
+  /* font sizes */
+  --font-size-lgi: 1.19rem;
+  --font-size-mid: 1.06rem;
+  --font-size-81xl: 6.25rem;
+  --font-size-base: 1rem;
+  --font-size-3xl: 1.38rem;
+  --font-size-21xl: 2.5rem;
+
+  /* Colors */
+  --color-linen: #efeae6;
+  --color-darkslategray-100: #3b443a;
+  --color-darkslategray-200: #364236;
+  --color-darkslategray-300: #2f392f;
+  --color-gray-100: #71826f;
+  --color-gray-200: #2b2b2b;
+  --color-black: #000;
+  --color-dimgray: #6f7563;
+  --color-darkolivegreen: #596e4e;
+}

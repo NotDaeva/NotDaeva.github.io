@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <style>
+      @font-face {
+        :font-family: "Yipes";
+        src: url("Yipes.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "Belgan Aesthetic";
+        src: url("Belgan Aesthetic.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "Antipasto Pro";
+        src: url("Antipasto-Pro-Regular-trial.ttf");
+        font-weight: 200;
+      }
+      @font-face {
+        :font-family: "Louis George Cafe Light";
+        src: url("Louis George Cafe Light.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "Louis George Cafe";
+        src: url("Louis George Cafe.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        :font-family: "Louis George Cafe";
+        src: url("Louis George Cafe Bold.ttf");
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="landing-page">
+      <div class="nav-bar">
+        <div class="top-bar-text">
+          <div class="projects" id="pROJECTSText">PROJECTS</div>
+          <div class="about-me" id="aBOUTMEText">ABOUT ME</div>
+          <div class="home">HOME</div>
+        </div>
+        <div class="top-left-created-by-symbol">
+          <div class="created-by-leah">Created by Leah</div>
+          <img
+            class="spiky-star-icon"
+            alt=""
+            src="./public/spiky-star@2x.png"
+          />
+        </div>
+      </div>
+      <div class="webp">
+        <img class="webp-child" alt="" src="./public/group-1@2x.png" />
+
+        <div class="main-text">
+          <div class="txt-welcome">
+            <p class="welcome">WELCOME</p>
+            <p class="to-my">TO MY</p>
+            <p class="to-my">PORTFOLIO</p>
+          </div>
+          <div class="txt-by">BY</div>
+          <div class="txt-name">LEAH</div>
+        </div>
+        <div class="top-right-quote-logo">
+          <img
+            class="small-star-to-right"
+            alt=""
+            src="./public/small-star-to-right@2x.png"
+          />
+
+          <div class="short-note">
+            Welcome to the accumulated exhibition of all I’ve done throughout my
+            High School Years
+          </div>
+        </div>
+        <img
+          class="top-left-crest-icon"
+          alt=""
+          src="./public/topleft-crest@2x.png"
+        />
+
+        <img
+          class="mid-right-img-icon"
+          alt=""
+          src="./public/midright-img@2x.png"
+        />
+
+        <div class="bot-left-img-quote">
+          <img class="image-icon" alt="" src="./public/image@2x.png" />
+
+          <div class="quote">
+            <p class="to-my">i will either find a way,</p>
+            <p class="to-my">or i will make one</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var pROJECTSText = document.getElementById("pROJECTSText");
+      if (pROJECTSText) {
+        pROJECTSText.addEventListener("click", function () {
+          window.open("https://github.com/NotDaeva");
+        });
+      }
+      
+      var aBOUTMEText = document.getElementById("aBOUTMEText");
+      if (aBOUTMEText) {
+        aBOUTMEText.addEventListener("click", function (e) {
+          window.location.href = "./ABOUTME.html";
+        });
+      }
+      </script>
+  </body>
+</html>

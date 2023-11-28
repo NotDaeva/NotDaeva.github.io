@@ -1,0 +1,194 @@
+.about-me,
+.projects {
+  line-height: 6.25rem;
+  cursor: pointer;
+}
+.projects {
+  position: absolute;
+  top: 0;
+  left: 16.5rem;
+}
+.about-me {
+  left: 0;
+}
+.about-me,
+.home,
+.top-bar-text {
+  position: absolute;
+  top: 0;
+}
+.home {
+  left: 9.88rem;
+  line-height: 6.25rem;
+}
+.top-bar-text {
+  left: 26rem;
+  width: 24.06rem;
+  height: 6.25rem;
+}
+.created-by-leah {
+  position: absolute;
+  top: 0.88rem;
+  left: 2.63rem;
+  line-height: 1.25rem;
+}
+.spiky-star-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+.top-left-created-by-symbol {
+  position: absolute;
+  top: 1.19rem;
+  left: 0;
+  width: 10.88rem;
+  height: 3rem;
+  color: var(--color-gray-200);
+  font-family: var(--font-belgan-aesthetic);
+}
+.nav-bar {
+  position: absolute;
+  top: 0.56rem;
+  left: 6.88rem;
+  width: 50.06rem;
+  height: 6.25rem;
+  overflow: hidden;
+}
+.webp-child {
+  position: absolute;
+  top: 0;
+  left: 19.5rem;
+  width: 34.63rem;
+  height: 41.38rem;
+  object-fit: cover;
+}
+.welcome {
+  margin: 0;
+  font-size: 5.13rem;
+}
+.to-my {
+  margin: 0;
+}
+.txt-by,
+.txt-name,
+.txt-welcome {
+  position: absolute;
+  line-height: 6.25rem;
+}
+.txt-welcome {
+  top: 0;
+  left: 0;
+  font-family: var(--font-belgan-aesthetic);
+}
+.txt-by,
+.txt-name {
+  top: 22.19rem;
+  left: 32.19rem;
+  font-size: 7.69rem;
+}
+.txt-name {
+  top: 27.88rem;
+  left: 56.06rem;
+  font-size: 5.75rem;
+}
+.main-text {
+  position: absolute;
+  top: 20.38rem;
+  left: 1.25rem;
+  width: 72.31rem;
+  height: 34.13rem;
+}
+.small-star-to-right {
+  position: absolute;
+  top: 0;
+  left: 2.69rem;
+  width: 4.31rem;
+  height: 4.31rem;
+  object-fit: cover;
+}
+.short-note {
+  position: absolute;
+  top: 4.13rem;
+  left: 0;
+  line-height: 0.94rem;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8.94rem;
+  height: 5.63rem;
+}
+.top-right-quote-logo {
+  position: absolute;
+  top: 3.63rem;
+  left: 61.88rem;
+  width: 8.94rem;
+  height: 9.75rem;
+  text-align: center;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-antipasto-pro);
+}
+.top-left-crest-icon {
+  top: 3.25rem;
+  left: 0;
+  width: 10.19rem;
+  height: 10.63rem;
+}
+.image-icon,
+.mid-right-img-icon,
+.top-left-crest-icon {
+  position: absolute;
+  object-fit: cover;
+}
+.mid-right-img-icon {
+  top: 19.44rem;
+  left: 59.13rem;
+  width: 14.44rem;
+  height: 20.65rem;
+}
+.image-icon {
+  top: 0;
+  left: 0;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+.quote {
+  position: absolute;
+  top: 2.94rem;
+  left: 14.56rem;
+  line-height: 1.25rem;
+}
+.bot-left-img-quote {
+  position: absolute;
+  top: 47.63rem;
+  left: 1.25rem;
+  width: 26.19rem;
+  height: 12.5rem;
+  font-size: var(--font-size-lgi);
+  color: #3a3a3a;
+  font-family: var(--font-belgan-aesthetic);
+}
+.webp {
+  position: absolute;
+  top: 9.5rem;
+  left: 7.56rem;
+  width: 73.56rem;
+  height: 60.13rem;
+  overflow: hidden;
+  font-size: var(--font-size-81xl);
+  color: var(--color-darkslategray-200);
+}
+.landing-page {
+  position: relative;
+  background-color: var(--color-linen);
+  width: 100%;
+  height: 64rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lgi);
+  color: var(--color-black);
+  font-family: var(--font-yipes);
+}
