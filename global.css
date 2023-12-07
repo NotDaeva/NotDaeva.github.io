@@ -1,5 +1,6 @@
 body {
-  margin: auto;
+  margin: 0 auto;
+  paddinig: 0;
   max-width: 100%;
   background-color: var(--color-linen);
   line-height: normal;
