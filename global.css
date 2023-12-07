@@ -1,6 +1,6 @@
 body {
   margin: auto;
-  max-width: 1440px;
+  max-width: 100%;
   background-color: var(--color-linen);
   line-height: normal;
 }
