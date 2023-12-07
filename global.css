@@ -1,11 +1,11 @@
 body {
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 100%;
   background-color: var(--color-linen);
   line-height: normal;
 }
 
-@media only screen and (max-device-width: 1194px) {
+@media only screen and (max-device-width: 2388px) {
   html {
     transform: scale(0.8); /* Adjust the scale factor as needed */
   }
