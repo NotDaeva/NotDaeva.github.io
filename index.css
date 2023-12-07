@@ -4,12 +4,6 @@
   cursor: pointer;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-}
 .projects {
   position: absolute;
   top: 0;
@@ -17,6 +11,7 @@ img {
 }
 
 .about-me {
+  top: 0;
   left: 0;
 }
 .about-me,
