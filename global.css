@@ -1,8 +1,9 @@
 body {
-  margin: auto;
-  max-width: 1440px;
+  margin: 0 auto;
+  max-width: 100%;
   background-color: var(--color-linen);
   line-height: normal;
+  overflow-x: hidden;
 }
 
 @media only screen and (max-device-width: 1194px) {
