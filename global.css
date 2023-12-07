@@ -5,7 +5,7 @@ body {
   line-height: normal;
 }
 
-@media (min-device-width : 1668px) {
+@media (max-device-width : 1668px) {
   body {
     transform: scale(0.8);
   }
