@@ -5,6 +5,10 @@ body {
   line-height: normal;
 }
 
+@media (max-device-width: 1194px) {
+  margin: 0
+}
+
 :root {
   /* fonts */
   --font-belgan-aesthetic: "Belgan Aesthetic";
