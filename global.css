@@ -1,14 +1,10 @@
 body {
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 1440px;
   background-color: var(--color-linen);
   line-height: normal;
 }
 
-@media (max-width: 1194px) {
-  html {
-    transform: scale(0.8); /* Adjust the scale factor as needed */
-  }
 }
 
 :root {
