@@ -5,11 +5,6 @@ body {
   line-height: normal;
 }
 
-@media only screen and (min-device-width : 1668px) {
-  html {
-    transform: scale(0.8);
-  }
-
 :root {
   /* fonts */
   --font-belgan-aesthetic: "Belgan Aesthetic";
