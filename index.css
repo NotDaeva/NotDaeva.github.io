@@ -1,10 +1,7 @@
 .about-me,
-.projects,
-.home {
+.projects {
   line-height: 6.25rem;
   cursor: pointer;
-  position: absolute;
-  top: 0;
 }
 
 img {
@@ -14,8 +11,11 @@ img {
 
 }
 .projects {
+  position: absolute;
+  top: 0;
   left: 16.5rem;
 }
+
 .about-me {
   left: 0;
 }
@@ -27,6 +27,7 @@ img {
 }
 .home {
   left: 9.88rem;
+  line-height: 6.25rem;
 }
 .top-bar-text {
   left: 26rem;
