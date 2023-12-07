@@ -5,9 +5,8 @@ body {
   line-height: normal;
 }
 
-@media only screen and (max-device-width: 1194px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-device-width: 1194px) {
   html {
-    transform-origin: top left;
     transform: scale(0.8); /* Adjust the scale factor as needed */
   }
 }
