@@ -5,8 +5,8 @@ body {
   line-height: normal;
 }
 
-@media (max-device-width : 1668px) {
-  body {
+@media only screen and (max-device-width : 1668px) {
+  html {
     transform: scale(0.8);
   }
 
